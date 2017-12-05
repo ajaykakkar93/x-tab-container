@@ -1,0 +1,15 @@
+{
+	"name": "x-tab-container",
+	"description": "uses master objects to switch between charts, can hide tab using a condition with output (true / false)",
+	"type": "visualization",
+	"version": "1.0.0",
+	"icon": "extension",
+	"author": "",
+	"homepage": "",
+	"keywords": "qlik-sense, visualization",
+	"license": "",
+	"repository": "",
+	"dependencies": {
+		"qlik-sense": ">=3.0.x"
+	}
+}

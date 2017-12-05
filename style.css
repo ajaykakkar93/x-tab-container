@@ -1,0 +1,110 @@
+/* vertical */
+
+.qv-object-x-tab-container .qv-inner-object{
+	
+	padding: 0px !important;
+
+}
+
+.qv-object-x-tab-container .qv-object-header.thin{
+	height:5px !important;
+}
+
+
+div.vtab, div.vtab button,.vtabcontent   {box-sizing: border-box}
+/* Style the tab */
+div.vtab {
+    float: left;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+	max-width: 10%;
+    max-width: 20%;
+	height: 100%;
+}
+
+/* Style the buttons inside the tab */
+div.vtab button {
+    display: block;
+    background-color: inherit;
+    color: black;
+    padding: 22px 16px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 14px;
+    text-transform: capitalize;
+	word-wrap: break-word;
+}
+
+/* Change background color of buttons on hover */
+div.vtab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current "tab button" class */
+div.vtab button.active {
+    background-color: #ccc;
+    border-left: 2px solid #7eca41;
+}
+
+/* Style the tab content */
+.vtabcontent {
+    float: left;
+    padding: 0px 12px;
+    border: 1px solid #ccc;
+    width: calc(90% - 50px);
+	max-width: 80%;
+    border-left: none;
+    height: 100%;
+}
+
+/*
+end
+*/
+
+/* Style the tab */
+div.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+div.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 8px 12px;
+    transition: 0.3s;
+    font-size: 14px;
+    text-transform: capitalize;
+    /* text-decoration: underline; */
+}
+
+/* Change background color of buttons on hover */
+div.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+div.tab button.active {
+    background-color: #ccc;
+    border-top: 2px solid #7eca41;
+}
+
+/* Style the tab content */
+.tabcontent {
+  /*  display: none;*/
+    padding: 3px 6px;
+    border: 1px solid #ccc;
+    border-top: none;
+	height: calc(100% - 43px);
+}
+
+
+
